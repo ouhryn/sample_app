@@ -170,15 +170,14 @@ input {
 	height: auto !important;
 }
 
-#error_explenation {
-	color: #f00
+#error_explanation {
+	color: #f00;
 	ul {
 	  list-style: none;
 	  margin: 0 0 18px 0;
 	}
-
-	.field_with_errors {
+}
+.field_with_errors {
 	@extend .control-group;
-	@extend .error;
-	}
+	@extend .error;	
 }
